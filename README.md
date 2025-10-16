@@ -102,14 +102,15 @@ INSERT INTO appointments (patient_id, doctor_id, date)
 ### Task 7 – RIGHT JOIN: Doctors and patients
 1. Show **all doctors** and the patients they have appointments with.
 2. Use `RIGHT JOIN` between `appointments` and `doctors`.
-3. If the doctor has no appointments, the patient’s name should be `NULL`.
-4. Show the columns: `doctor_name`, `patient_first_name`, `patient_last_name`.
+3. Use `LEFT JOIN` between `appointments` and `patients`.
+4. If the doctor has no appointments, the patient’s name should be `NULL`.
+5. Show the columns: `doctor_name`, `patient_first_name`, `patient_last_name`.
 
 ---
 
 ### Task 8 – FULL JOIN: All patients and all doctors
 1. Show all patients and all doctors (even if they don’t have appointments).
-2. Use `UNION` to combine a `LEFT JOIN` and a `RIGHT JOIN`.
+2. Use `UNION` to combine `LEFT JOIN`s and `RIGHT JOIN`s.
 3. Show the columns: `patient_name`, `doctor_name`, `date`.
 
 ---
