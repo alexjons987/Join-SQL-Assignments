@@ -33,7 +33,7 @@ INSERT INTO patients (first_name, last_name, province_id)
 	VALUES ("Alice", "A.", "ON"),
 		   ("Bob", "B.", "QC"),
            ("Charlie", "C.", NULL),
-           ("Dede", "D.", "QC");
+           ("Dede", "D.", "BC");
            
 INSERT INTO province_names (province_id, province_name)
 	VALUES ("ON", "Ontario"),
